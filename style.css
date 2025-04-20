@@ -50,6 +50,9 @@ input:focus{
     border: 1.5px solid #0d6db7;
 }
 
+.error-placeholder::placeholder {
+    color: red;}
+
 span{
     color: #0d6db7;
     font-size: 14px;
@@ -70,6 +73,12 @@ span{
     flex-direction: column;
     width: 100%;
     gap: 7px;
+}
+
+#submit{
+    width: 80vw;
+    height: 50px;
+    margin-top: 70px;
 }
 
 
